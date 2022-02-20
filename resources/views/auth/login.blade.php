@@ -6,20 +6,27 @@
             <style>
                 body {
                 font-family: 'Nunito', sans-serif;
-                background-image: url("https://i.pinimg.com/564x/81/2b/d5/812bd598d26f2d4d2a9f3191f95432c7.jpg");
+                background-image: url("https://i.pinimg.com/564x/28/0f/e4/280fe4f5d710c7d8a70983bb33fa2038.jpg");
             }
                 .emailtext {
-                    font-size:35px;
-                    color:white;
+                    font-size:20px;
+                    color:#FE929F;
+                    font-family: cursive;
                     
             }
+                .header {
+                    background-color: #FE929F;
+                    padding: 30px 40px;
+                    color: white;
+                    text-align: center;
+ 
+                }
                 .Chad {
                     width: 300px;
-                    border: 10px solid #A59378;
                     padding: 55px;
                     margin: auto;
                     margin-top: 60;
-                    background-color: #EDDBBF;
+                    background-color: #FFFFFF;
                     border-radius:10px;
                 }
                 .emailbox{
@@ -39,20 +46,22 @@
                     border:white;
                 }
                 .passtext{
-                    font-size:35px;
-                    color:white;   
+                    font-size:20px;
+                    color:#FE929F; 
+                    font-family: cursive;  
                 }
                 .login_bt{
                     margin-left:100px;
                     margin-top:20px;
-                    background-color: #a5815f;
+                    background-color: #D5D2C1;
                     border: none;
-                    color: white;
+                    color: #FE929F;
                     padding: 15px 32px;
                     text-align: center;
                     text-decoration: none;
                     display: inline-block;
                     font-size: 16px;
+                    font-family: cursive;
                 }
                 .rememb{
                     color:#a5815f;
@@ -68,8 +77,10 @@
             </style>
         </head>
         
-        <img src="https://cdn.discordapp.com/attachments/932300434666835998/932307007258632202/chick.png" class="logo">
-        
+        <div id="myDIV" class="header">
+            <h2 style="margin:5px font-family: cursive; font-size: 3em; font-weight: bold;  text-shadow:3px 3px rgb(121, 18, 18); ">Thanyaporn's Portfolio</h2>
+  
+        </div>
    
 
         @if (session('status'))

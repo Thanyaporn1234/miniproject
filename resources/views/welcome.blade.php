@@ -17,18 +17,18 @@
         <style>
             body {
                 font-family: 'Nunito', sans-serif;
-                background-image: url("https://i.pinimg.com/564x/81/2b/d5/812bd598d26f2d4d2a9f3191f95432c7.jpg");
+                background-image: url("https://i.pinimg.com/564x/28/0f/e4/280fe4f5d710c7d8a70983bb33fa2038.jpg");
             }
         </style>
     </head>
     <body class="antialiased">
         <div class="relative flex items-top justify-center max-h-screen sm:items-center py-4 sm:pt-0 " style="background-color:#f7fafc; margin-left:20%; margin-right:20%; margin-top:15%; padding-bottom:3%; padding-top:1%; border-radius:.8rem">
             <div class="max-w-6xl mx-auto sm:px-6 lg:px-8">
-                <div class="flex justify-center pt-8 sm:justify-start sm:pt-0" style="color:#A5815F">
+                <div class="flex justify-center pt-8 sm:justify-start sm:pt-0" style="color:#BC5F6A">
                     <h1>WELCOME TO MY PORTFOLIO</h1>
                 </div>
 
-                <div class="flex justify-center text-center justify-start sm:pt-0" style="color:#FFA700">
+                <div class="flex justify-center text-center justify-start sm:pt-0" style="color:#BC5F6A">
                     <h4>PLEASE LOG IN / REGISTER BEFORE</h4>
                 </div>
                 <div class="mx-auto sm:px-6">
@@ -38,11 +38,11 @@
                                 <a href="{{ url('/dashboard') }}" class="text-sm dark:text-gray-500">Dashboard</a>
                             </div>
                         @else
-                            <div class="flex justify-center text-center mt-8 overflow-hidden shadow sm:rounded-lg " style="color:#FFFFFF;background-color:#A5815F">
+                            <div class="flex justify-center text-center mt-8 overflow-hidden shadow sm:rounded-lg " style="color:#FFFFFF;background-color:#FE7773">
                                 <a href="{{ route('login') }}" class="text-sm dark:text-gray-500">Log in</a>
                             </div>
                             @if (Route::has('register'))
-                                <div class="flex justify-center text-center mt-8 overflow-hidden shadow sm:rounded-lg" style="color:#FFFFFF;background-color:#A5815F">
+                                <div class="flex justify-center text-center mt-8 overflow-hidden shadow sm:rounded-lg" style="color:#FFFFFF;background-color:#982827">
                                         <a href="{{ route('register') }}" class="ml-4 text-sm dark:text-gray-500">Register</a>
                                 </div>
                             @endif
